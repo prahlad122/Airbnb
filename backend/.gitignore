@@ -1,13 +1,14 @@
 
-# Environment variables
+# ENV
 .env
+backend/.env
+frontend/.env
 
-# Dependencies
+# NODE MODULES
 node_modules/
+backend/node_modules/
+frontend/node_modules/
 
-# Production build
-build/
-dist/
-
-# Logs
-npm-debug.log*
+# BUILDS
+frontend/build/
+frontend/dist/
